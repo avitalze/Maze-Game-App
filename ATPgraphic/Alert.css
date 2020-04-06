@@ -1,0 +1,7 @@
+.root{
+    /*-fx-background-color: #f9d900;*/
+    -fx-background-image: url('images/kobi.jpeg');
+    -fx-background-size: cover;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

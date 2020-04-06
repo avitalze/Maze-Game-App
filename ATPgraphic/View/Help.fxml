@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane minHeight="220.0" minWidth="350.0" prefHeight="220.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Help">
+    <children>
+        <Label fx:id="text" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="8.0" prefHeight="162.0" prefWidth="334.0" />
+        <Button fx:id="exit" layoutX="122.0" layoutY="170.0" mnemonicParsing="false" onAction="#closew" prefHeight="32.0" prefWidth="106.0" text="Close Window" textAlignment="CENTER" wrapText="true" />
+    </children>
+</Pane>
