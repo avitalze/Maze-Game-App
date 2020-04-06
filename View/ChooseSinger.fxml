@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane minHeight="239.0" minWidth="400.0" prefHeight="239.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ChooseSinger">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="239.0" prefWidth="406.0">
+         <children>
+            <RadioButton id="singer1" fx:id="singer1" layoutX="37.0" layoutY="180.0" mnemonicParsing="false" text="Netta Barzilai">
+               <toggleGroup>
+                  <ToggleGroup fx:id="singer" />
+               </toggleGroup></RadioButton>
+            <RadioButton id="singer3" fx:id="singer3" layoutX="280.0" layoutY="180.0" mnemonicParsing="false" text="Eleni Foureira" toggleGroup="$singer" />
+            <RadioButton id="singer2" fx:id="singer2" layoutX="166.0" layoutY="180.0" mnemonicParsing="false" text="Conchita" toggleGroup="$singer" />
+            <Label layoutX="95.0" layoutY="24.0" text="Please choose a character">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="neta" fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="conchita" fitHeight="100.0" fitWidth="100.0" layoutX="146.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cyprus" fitHeight="100.0" fitWidth="100.0" layoutX="274.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
+            <Button id="saveChanges" fx:id="saveChanges" layoutX="153.0" layoutY="204.0" mnemonicParsing="false" onAction="#saveChanges" text="save changes" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
